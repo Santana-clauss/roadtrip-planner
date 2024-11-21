@@ -1,5 +1,5 @@
 // controllers/destinationController.js
-const Destination = require('../models/Destination');
+const Destination = require('../model/destinations.js');
 
 // Add a new destination
 exports.addDestination = async (req, res) => {
